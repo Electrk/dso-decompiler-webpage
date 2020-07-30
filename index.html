@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Electrk | DSO Decompiler</title>
+	<style type="text/css">
+		body
+		{
+			font-family: Helvetica, Arial, sans-serif;
+			background-color: #010D17;
+		}
+
+		body
+		{
+			color: #EEE;
+		}
+
+		body, .full-size
+		{
+			width: 100%;
+			height: 100%;
+
+			margin: 0px;
+
+			overflow: hidden;
+		}
+
+		a, a:link, a:hover, a:active, a:visited
+		{
+			color: #CDCDCD;
+		}
+
+		.full-size
+		{
+			padding: 0.5vw;
+		}
+
+		.error
+		{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id='dropzone' class="full-size">
+		<p>
+			<h2>DSO Decompiler</h2>
+			<small>Source code available <a href="https://github.com/electrk/dso-decompiler-webpage">here</a>.</small>
+		</p>
+
+		<p id="error" class="error"></p>
+
+		<p>
+			<input type="file" id="fileUpload" autocomplete="off" accept=".dso" multiple>
+		</p>
+	</div>
+
+	<script type="text/javascript" src="./dist/bundle.js"></script>
+</body>
+</html>

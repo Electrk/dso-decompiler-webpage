@@ -1,0 +1,30 @@
+{
+  "name": "dso-decompiler-webpage",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Electrk/dso-decompiler-webpage.git"
+  },
+  "author": "Electrk",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^5.6.0",
+    "dso.js": "^1.0.0",
+    "file-saver": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Electrk/dso-decompiler-webpage/issues"
+  },
+  "homepage": "https://github.com/Electrk/dso-decompiler-webpage#readme",
+  "description": ""
+}
